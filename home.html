@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slide.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <header>
+        <nav class="Mhead">
+            <div class="logo">
+                <img src="imgs/logo.jpg" alt="">
+            </div>
+            <div class="opcs">
+                <h4>Inicio</h4>
+                <h4>Produtos</h4>
+                <h4>Sobre</h4>
+                <h4>Contatos</h4>
+            </div>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <div class="slider">
+            <div class="slides">
+                <div class="slide active">
+                    <img src="imgs/artes.webp" alt="Image 1">
+                    <div class="text">Materiais de Qualidade</div>
+                </div>
+                <div class="slide">
+                    <img src="imgs/produc.jpg" alt="Image 2">
+                    <div class="text">Produtos Chamativo</div>
+                </div>
+                <div class="slide">
+                    <img src="imgs/atend.avif" alt="Image 3">
+                    <div class="text">Atendimento Pessoal</div>
+                </div>
+            </div>
+            <div class="dots">
+                <span class="dot active" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="js/slide.js"></script>
+</body>
+</html>
